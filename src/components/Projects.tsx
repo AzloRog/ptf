@@ -5,6 +5,7 @@ import cocktailsImage from "../images/cocktails.png";
 import hooBankImage from "../images/hoo-bank.png";
 import sliderImage from "../images/slider.png";
 import menuImage from "../images/menu.png";
+import quizProjectImage from "../images/quiz-project.png";
 
 const Projects = () => {
   return (
@@ -27,6 +28,13 @@ const Projects = () => {
 };
 
 const projectsData = [
+  {
+    id: 0,
+    name: "Quiz project",
+    image: quizProjectImage,
+    codeLink: "https://github.com/AzloRog/quiz-project",
+    projectLink: "https://azlorog.github.io/quiz-project/",
+  },
   {
     id: 0,
     name: "Color generator",
