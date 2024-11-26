@@ -1,6 +1,9 @@
 import socialApp from "../assets/projects/social-app.png";
 import pizzaMaker from "../assets/projects/pizza-maker.png";
 import bankingApp from "../assets/projects/banking-app.png"
+import quizProject from "../assets/projects/quiz-project.png"
+import colorGenerator from "../assets/projects/color-generator.png"
+import smartSpace from "../assets/projects/smart-space.png"
 export interface Project {
   id: number;
   title: string;
@@ -62,6 +65,67 @@ const projects: Project[] = [
     githubLink: "https://github.com/AzloRog/sls-app",
     githubPagesLink: "https://azlorog.github.io/sls-app/",
   },
+  {
+    id: 3,
+    title: "Quiz Project",
+    description: `Проект позволяющий создавать опросник и его же проходить`,
+    technologies: [
+      "Vite",
+      "React",
+      "Redux toolkit",
+      "Typescript",
+      "React-router-dom",
+      "Tailwindcss",
+      "Nanoid",
+    ],
+    image: quizProject,
+    githubLink: "https://github.com/AzloRog/quiz-project",
+    githubPagesLink: "https://azlorog.github.io/quiz-project/",
+  },
+  {
+    id: 4,
+    title: "Color Generator",
+    description: `Генератор цвета на основе hex либо названии цвета, использует api`,
+    technologies: [
+      "Vite",
+      "React",
+      "Typescript",
+    ],
+    image: colorGenerator,
+    githubLink: "https://github.com/AzloRog/color-generator",
+    githubPagesLink: "https://azlorog.github.io/color-generator/",
+  },
+  {
+    id: 5,
+    title: "Cocktails",
+    description: `Простой проект работающий с api`,
+    technologies: [
+      "Vite",
+      "React",
+      "React-router-dom",
+
+    ],
+    image: colorGenerator,
+    githubLink: "https://github.com/AzloRog/cocktails",
+    githubPagesLink: "https://azlorog.github.io/cocktails/",
+  },
+  {
+    id: 6,
+    title: "Smart space",
+    description: `Обычная верстка`,
+    technologies: [
+      "Html",
+      "Css",
+      "Scss",
+
+    ],
+    image: smartSpace,
+    githubLink: "https://github.com/AzloRog/smart-space",
+    githubPagesLink: "https://azlorog.github.io/smart-space/",
+  },
+
+
+
 ];
 
 export default projects;
