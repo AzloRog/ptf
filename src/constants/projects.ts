@@ -3,6 +3,7 @@ import pizzaMaker from "../assets/projects/pizza-maker.png";
 import bankingApp from "../assets/projects/banking-app.png"
 import quizProject from "../assets/projects/quiz-project.png"
 import colorGenerator from "../assets/projects/color-generator.png"
+import cocktails from "../assets/projects/cocktails.png"
 import smartSpace from "../assets/projects/smart-space.png"
 export interface Project {
   id: number;
@@ -105,7 +106,7 @@ const projects: Project[] = [
       "React-router-dom",
 
     ],
-    image: colorGenerator,
+    image: cocktails,
     githubLink: "https://github.com/AzloRog/cocktails",
     githubPagesLink: "https://azlorog.github.io/cocktails/",
   },
