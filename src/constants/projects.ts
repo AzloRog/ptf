@@ -5,6 +5,8 @@ import quizProject from "../assets/projects/quiz-project.png"
 import colorGenerator from "../assets/projects/color-generator.png"
 import cocktails from "../assets/projects/cocktails.png"
 import smartSpace from "../assets/projects/smart-space.png"
+import terStore from "../assets/projects/ter-store.png"
+
 export interface Project {
   id: number;
   title: string;
@@ -18,6 +20,18 @@ export interface Project {
 const projects: Project[] = [
   {
     id: 0,
+    title: "Terraria store",
+    description: `
+    Интернет магазин по игре terraria, в разработке
+    `,
+    githubLink: "https://github.com/AzloRog/ter-store",
+    githubPagesLink: "https://ter-store-dpw.vercel.app/",
+    image: terStore,
+    technologies: ["Next.js", "tailwindcss", "Appwrite", "zustand", "zod"]
+  },
+
+  {
+    id: 1,
     title: "Banking App",
     description: `
     Данный pet проект предназначен для мониторинга счетов и транзакций банковских счетов пользователя, на данный момент
@@ -30,7 +44,7 @@ const projects: Project[] = [
     technologies: ["Next.js", "tailwindcss", "shadcn", "e.t.c"]
   },
   {
-    id: 1,
+    id: 2,
     title: "Pizza website",
     description: `
     Pizza Maker, это веб сайт по заказу пиццы, изначально планировалось как fullstack (MERN) приложение, 
@@ -44,7 +58,7 @@ const projects: Project[] = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Social App",
     description: `Социальная сеть, в качестве backend-a 
        используется PostgreSQL - Supabase, активно развиваю и добавляю новую логику,
@@ -67,7 +81,7 @@ const projects: Project[] = [
     githubPagesLink: "https://azlorog.github.io/sls-app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Quiz Project",
     description: `Проект позволяющий создавать опросник и его же проходить`,
     technologies: [
@@ -84,7 +98,7 @@ const projects: Project[] = [
     githubPagesLink: "https://azlorog.github.io/quiz-project/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Color Generator",
     description: `Генератор цвета на основе hex либо названии цвета, использует api`,
     technologies: [
@@ -97,7 +111,7 @@ const projects: Project[] = [
     githubPagesLink: "https://azlorog.github.io/color-generator/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Cocktails",
     description: `Простой проект работающий с api`,
     technologies: [
@@ -111,7 +125,7 @@ const projects: Project[] = [
     githubPagesLink: "https://azlorog.github.io/cocktails/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Smart space",
     description: `Обычная верстка`,
     technologies: [
